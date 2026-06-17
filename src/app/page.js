@@ -9,7 +9,7 @@ export default function Home() {
         <Link href="/portfolio">Portfolio</Link>
       </h1>
 
-      <h1 class="title ml-125">
+      <h1 class="title justify-self-center mr-50">
         <Link href="/about">About</Link>
       </h1>
 
