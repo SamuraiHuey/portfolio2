@@ -30,9 +30,17 @@ body {
 }
 
 p {
-  font-size: 25;
+  font-size: 20;
 }
 h2{
   font-size:xx-large;
   font-weight: 700;
+}
+h3{
+  font-size:medium;
+  font-weight: 700;
+}
+h4{
+  font-size: small;
+  font-style: italic;
 }
