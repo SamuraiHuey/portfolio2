@@ -5,14 +5,14 @@ import Link from "next/link";
 export default function Header() {
     return (
         <header>
-            <nav class="border border-red-600 p-5">
+            <nav class=" p-5">
                 <ul class="flex justify-between items-center">
-                    <li class="border border-blue-400">
+                    <li class="">
                         <Link href="/">
                             Will Brent
                         </Link>
                     </li>
-                    <li class="border border-green-400">
+                    <li class="">
                         <Link href="/">
                             <Image
                                 class="self-center"
