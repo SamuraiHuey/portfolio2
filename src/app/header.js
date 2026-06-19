@@ -5,9 +5,9 @@ import Link from "next/link";
 export default function Header() {
     return (
         <header>
-            <nav class=" p-5">
-                <ul class="flex justify-between items-center">
-                    <li class="">
+            <nav className=" p-5">
+                <ul className="flex justify-between items-center">
+                    <li className="">
                         <Link href="/">
                             Will Brent
                         </Link>
@@ -15,7 +15,7 @@ export default function Header() {
                     <li class="">
                         <Link href="/">
                             <Image
-                                class="self-center"
+                                className="self-center"
                                 src={Logo}
                                 width={50}
                                 height={50}

@@ -43,7 +43,7 @@ export default function Home() {
           </section>
         </li>
 
-        <div id="Break" className="border size-1/2 justify-self-center m-5"></div>
+        <div id="Break" className="border size-1/2 justify-self-center my-5"></div>
 
         <li class="flex items-center mt-5">
           <section className="p-5">
@@ -81,7 +81,7 @@ export default function Home() {
           />
         </li>
 
-        <div id="Break" className="border size-1/2 justify-self-center m-5"></div>
+        <div id="Break" className="border size-1/2 justify-self-center my-2"></div>
 
         <li class="flex items-center mt-5">
           <Image
@@ -119,7 +119,7 @@ export default function Home() {
           </section>
         </li>
 
-        <div id="Break" className="border size-1/2 justify-self-center m-5"></div>
+        <div id="Break" className="border size-1/2 justify-self-center my-5"></div>
 
         <li class="flex items-center mt-5">
           <section className="p-5">
