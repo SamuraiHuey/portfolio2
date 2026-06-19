@@ -11,9 +11,9 @@ export default function Home() {
           After high school, I went through a difficult stretch in my life, at one point I was living out of my car. I had planned to study music education, but circumstances forced me to pivot. What that period taught me was that I work best when I’m solving real problems. That realization, combined with the curiosity that drove so much else in my life, led me to software development. I completed the coding bootcamp at the University of Richmond, and quickly found that the skills I had spent years building — the discipline, the attention to detail, the ability to communicate clearly under pressure — translated directly into this work.
         </p>
         <Image
-          className=""
+          className="w-1/2"
           src={Headshot}
-          sizes="fill"
+          sizes=""
           alt="Headshot of Will Brent with his arms crossed"
         />
       </div>
