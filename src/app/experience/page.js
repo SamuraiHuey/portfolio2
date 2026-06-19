@@ -37,7 +37,7 @@ export default function Home() {
 
       <h2 className="underline ml-5">Resume</h2>
 
-      <section className="ml-5 grid grid-cols-2">
+      <section className="mx-5 grid grid-cols-2 gap-10">
 
 
         <div id="Employer" className="my-5">
