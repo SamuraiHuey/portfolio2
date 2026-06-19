@@ -1,5 +1,8 @@
 import Image from "next/image.js";
 import Headshot from "../../../public/jpeg/Headshot-B&W.jpg"
+import Experience_1 from "../../../public/jpeg/experience-a.jpeg"
+import Experience_2  from "../../../public/jpeg/experience-b.jpeg"
+import Experience_3  from "../../../public/jpeg/experience-c.jpeg"
 
 export default function Home() {
   return (
@@ -11,7 +14,7 @@ export default function Home() {
         <div className="p-5 w-3/10">
           <Image
             className=""
-            src={Headshot}
+            src={Experience_1}
           />
           <h2 className="mt-5">Full-Stack Development</h2>
           <p>I have a talent for communication that many in the software development world tend to lack, and this has been highly valuable in my work as a developer. I have the skills to understand user issues, how to address them professionally, and then communicate them in a way that other Developers and Engineers can understand. This is also key in communication with stakeholders who technically minded professionals often struggle with communicating with. I have also been responsible for the full-stack development of multiple company websites.</p>
@@ -19,7 +22,7 @@ export default function Home() {
         <div className="p-5 w-3/10">
           <Image
             className=""
-            src={Headshot}
+            src={Experience_2}
           />
           <h2 className="mt-5">Marketing</h2>
           <p>I have overseen various online marketing initiatives, including the development and implementation of major SEO and AI-SEO workflows that brought significant improvements to sites that were implementing them, as well as launched AI powered geofencing/geotargeting campaigns that saw major increases to online exposure. I also have helped individual sales producers elevate their personal brand view email marketing and strategic content pipelines.</p>
@@ -27,7 +30,7 @@ export default function Home() {
         <div className="p-5 w-3/10">
           <Image
             className=""
-            src={Headshot}
+            src={Experience_3}
           />
           <h2 className="mt-5">Project Management</h2>
           <p>In my career, I have managed numerous major projects including the full brand refresh of the company WorkRocket. As well as the overhaul of the online presence of the company PeopleSolutions.</p>
