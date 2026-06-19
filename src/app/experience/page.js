@@ -194,6 +194,8 @@ export default function Home() {
               <li>AI-Assisted Development</li>
               <li>Technical Documentation</li>
               <li>Server Administration</li>
+              <li>IT Infrastructure</li>
+              <li>Email Server Maintenance</li>
             </ul>
           </section>
 
