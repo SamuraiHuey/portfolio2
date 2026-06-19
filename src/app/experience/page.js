@@ -181,6 +181,7 @@ export default function Home() {
               <li>Git</li>
               <li>SEMRush</li>
               <li>Google Analytics</li>
+              <li>Interworx</li>
             </ul>
           </section>
 
