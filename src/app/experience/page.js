@@ -8,32 +8,32 @@ export default function Home() {
   return (
     <main className="">
       <h1 className="title">Experience</h1>
-      <p className="p-5">I am a highly adaptable person who has worn a lot of different hats in my life. I have worked in every field from Food Service, Management, Sales, and have settled into a career as a Software Developer after completing the Coding Bootcamp at The University of Richmond. I came to this career thanks to my deep love of learning new things and understanding how things work. I am passionate about growing my knowledge and becoming the best developer I can be through first hand experience and traditional learning.</p>
+      <p className="p-5">My background is mostly full-stack web development, with a fair amount of digital strategy, marketing, and project management mixed in. I’ve built production websites from scratch, managed hosting infrastructure, handled third-party integrations, and run SEO programs. I’ve also had to manage stakeholders, write specs, and keep projects on track when requirements shifted. I work well in both directions — talking through technical decisions with other developers and explaining them clearly to people who aren’t.</p>
 
       <section className="flex grid-cols-3 justify-center items-top">
-        <div className="p-5 w-3/10">
+        <div className="p-5 w-33/100">
           <Image
             className=""
             src={Experience_1}
           />
-          <h2 className="mt-5">Full-Stack Development</h2>
-          <p>I have a talent for communication that many in the software development world tend to lack, and this has been highly valuable in my work as a developer. I have the skills to understand user issues, how to address them professionally, and then communicate them in a way that other Developers and Engineers can understand. This is also key in communication with stakeholders who technically minded professionals often struggle with communicating with. I have also been responsible for the full-stack development of multiple company websites.</p>
+          <h2 className="mt-5">Engineering</h2>
+          <p>Most of my development work has been full-stack, and the stack has varied by project. On the CMS side I've worked heavily in WordPress and PHP, with some professional exposure to Drupal. On the front end, I've been working in Next.js, TailwindCSS, and JavaScript for about 5 years. I've also done a fair amount of REST API integration work across projects, connecting to ATS platforms, ad networks, and other third-party services. On the back end, I've worked with SQL and MongoDB in both professional and educational projects, and I've been putting time into Python outside of work. I'm comfortable with server configuration and hosting infrastructure — cPanel, WHM, Interworx, VPS — and I use Git consistently and deploy to production regularly. I've also spent a lot of time as the only technical person in the room, which means I've had to get good at gathering requirements, pushing back when something won't work, and delivering in a way that non-technical stakeholders can actually evaluate. </p>
         </div>
-        <div className="p-5 w-3/10">
+        <div className="p-5 w-33/100">
           <Image
             className=""
             src={Experience_2}
           />
           <h2 className="mt-5">Marketing</h2>
-          <p>I have overseen various online marketing initiatives, including the development and implementation of major SEO and AI-SEO workflows that brought significant improvements to sites that were implementing them, as well as launched AI powered geofencing/geotargeting campaigns that saw major increases to online exposure. I also have helped individual sales producers elevate their personal brand view email marketing and strategic content pipelines.</p>
+          <p>A good chunk of my work has sat at the intersection of development and marketing. I’ve built SEO workflows, including AI-assisted content pipelines, that improved organic rankings for multiple sites. I’ve also set up and managed geofencing and geotargeting campaigns — handling the technical side of the integrations, configuring targeting, and tracking results through analytics. I’m not a marketer at heart, but I know enough to build the infrastructure for a marketing program and keep it running without needing a separate team to handle the technical pieces.</p>
         </div>
-        <div className="p-5 w-3/10">
+        <div className="p-5 w-33/100">
           <Image
             className=""
             src={Experience_3}
           />
           <h2 className="mt-5">Project Management</h2>
-          <p>In my career, I have managed numerous major projects including the full brand refresh of the company WorkRocket. As well as the overhaul of the online presence of the company PeopleSolutions.</p>
+          <p>Several of the larger projects I’ve worked on required me to own more than just the development. The WorkRocket rebrand is a great example. I was coordinating across design, leadership, and multiple brands simultaneously, while also doing the actual build. Same with the PeopleSolutions overhaul, where I came in and rebuilt the company’s online presence from the ground up. In both cases I was scoping the work, managing the timeline, and the one accountable when something needed to ship. I’m used to that kind of ownership and I work better when I have it.</p>
         </div>
 
       </section>
