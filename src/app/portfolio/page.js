@@ -14,14 +14,16 @@ export default function Home() {
       <ul>
 
         <li class="flex items-center mt-5">
+          <Link href="https://workrocket.com/">
           <Image
             className=""
             src={WorkRocket}
             sizes="40vw"
           />
+          </Link>
           <section className="p-5">
             <h2 className=""><Link href="https://workrocket.com/">WorkRocket Homepage</Link></h2>
-            <p className="mt-5">Built the homepage for RPO company WorkRocket from the ground up, managing both the development and a full company rebranding from start to finish.</p>
+            <p className="mt-5">Led full-stack development of the WorkRocket homepage alongside leading a company-wide rebrand. Owned the project end to end: architecture decisions, build, deployment, and cross-functional coordination with stakeholders across the organization. WorkRocket operates as a recruitment process outsourcing firm, so the site had to function as both a marketing asset and a credibility signal to potential clients.</p>
             <ul className="flex flex-wrap gap-1 mt-5">
               <h3 className="font-bold">Technology:</h3>
               <li>WordPress</li>
@@ -45,10 +47,10 @@ export default function Home() {
 
         <div id="Break" className="border size-1/2 justify-self-center my-5"></div>
 
-        <li class="flex items-center mt-5">
+        <li className="flex items-center mt-5">
           <section className="p-5">
             <h2 className="mt-5"><Link href="https://younginnovationscareers.com/">Young Innovations Careers</Link></h2>
-            <p className="mt-5">Built a custom careers site for dental supply giant Young Innovations, including a REST API integration with their existing Workday ATS. Developed dedicated landing pages for each of their brands to create individual recruiting funnels and strengthen their SEO presence across the portfolio.</p>
+            <p className="mt-5">Designed and built a custom career portal for <Link className="underline" href="https://younginnovations.com/">Young Innovations</Link>, a dental supply company with multiple subsidiary brands. Integrated directly with their existing Workday ATS via REST API to keep job listings in sync without manual overhead. Developed individual landing pages for each brand to create isolated recruiting funnels and improve organic search visibility across the portfolio. This project required careful coordination between their internal HR team, their ATS vendor, and my own development work.</p>
             <ul className="flex flex-wrap gap-1 mt-5">
               <h3 className="font-bold">Technology:</h3>
               <li>WordPress</li>
@@ -74,24 +76,28 @@ export default function Home() {
               <li>Claude Code</li>
             </ul>
           </section>
+          <Link href="https://younginnovationscareers.com/">
           <Image
             className=""
             src={Young}
             sizes="40vw"
           />
+          </Link>
         </li>
 
         <div id="Break" className="border size-1/2 justify-self-center my-2"></div>
 
         <li class="flex items-center mt-5">
+          <Link href="https://onlycncjobs.com/">
           <Image
             className=""
             src={OnlyCNCJobs}
             sizes="40vw"
           />
+          </Link>
           <section className="p-5">
             <h2 className="mt-5"><Link href="https://onlycncjobs.com/">OnlyCNCJobs</Link></h2>
-            <p className="mt-5">As Managing Director, led the launch and full operations of a CNC-focused job board. Designed and built the site from scratch, then oversaw all growth and business development through year one.</p>
+            <p className="mt-5">Built and launched a niche job board targeting the CNC machining industry, serving as both the technical lead and Managing Director. Handled everything from site architecture and development to SEO strategy, content operations, and employer outreach. Integrated an AI-powered support chatbot to handle inbound inquiries and reduce operational load. Oversaw all growth and business development through year one.</p>
             <ul className="flex flex-wrap gap-1 mt-5">
               <h3 className="font-bold">Technology:</h3>
               <li>WordPress</li>
@@ -124,7 +130,7 @@ export default function Home() {
         <li class="flex items-center mt-5">
           <section className="p-5">
             <h2 className="mt-5"><Link href="https://willbrent.com/">Willbrent.com</Link></h2>
-            <p className="mt-5">This site, designed and built to showcase my background in a clean, minimal way. The focus is on the work itself rather than visual noise.</p>
+            <p className="mt-5">This site, built to let the work speak for itself. Intentionally minimal in design to keep the focus on content rather than visual decoration. Built entirely by hand with no AI code generation tools used at any point in development.</p>
             <ul className="flex flex-wrap gap-1 mt-5">
               <h3 className="font-bold">Technology:</h3>
               <li>Next.js</li>
@@ -137,7 +143,6 @@ export default function Home() {
               <li>|</li>
               <li>Github</li>
             </ul>
-            <h4 className="italic">*All code written by hand, no AI code generation tools were used in the development of this site.</h4>
           </section>
           <Image
             className=""
