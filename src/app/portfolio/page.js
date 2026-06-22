@@ -9,21 +9,23 @@ export default function Home() {
   return (
     <main>
       <h1 className="title ">Portfolio</h1>
-      <p className="pl-4">From Full-Stack Development to SEO and Marketing.</p>
+      <p className="px-4">From Full-Stack Development to SEO and Marketing.</p>
 
       <hr id="Break" className="border size-1/2 justify-self-center m-5"></hr>
 
-      <ul>
+      <ul className="md:ml-25">
 
-        <li className="flex items-center mt-5">
-          <Link href="https://workrocket.com/">
+        <li className="flex flex-col md:flex-row items-center mt-5">
+          <Link className="sm:w-1/2 md:w-1/3 md:shrink-0" href="https://workrocket.com/">
             <Image
               className=""
               src={WorkRocket}
-              sizes="40vw"
+              width="full"
+              height="auto"
+              alt="WorkRocket Logo"
             />
           </Link>
-          <section className="p-5">
+          <section className="md:w-1/2 p-5">
             <h2 className=""><Link href="https://workrocket.com/">WorkRocket Homepage</Link></h2>
             <p className="mt-5">Led full-stack development of the WorkRocket homepage alongside leading a company-wide rebrand. Owned the project end to end: architecture decisions, build, deployment, and cross-functional coordination with stakeholders across the organization. WorkRocket operates as a recruitment process outsourcing firm, so the site had to function as both a marketing asset and a credibility signal to potential clients.</p>
             <ul className="flex flex-wrap gap-1 mt-5">
@@ -49,8 +51,17 @@ export default function Home() {
 
         <hr id="Break" className="border size-1/2 justify-self-center my-5"></hr>
 
-        <li className="flex items-center mt-5">
-          <section className="p-5">
+        <li className="flex flex-col md:flex-row items-center mt-5">
+          <Link className="sm:w-1/2 md:w-1/3 md:shrink-0" href="https://younginnovationscareers.com/">
+            <Image
+              className=""
+              src={Young}
+              width="full"
+              height="auto"
+              alt="Young Innovations Logo"
+            />
+          </Link>
+          <section className="md:w-1/2 p-5">
             <h2 className="mt-5"><Link href="https://younginnovationscareers.com/">Young Innovations Careers</Link></h2>
             <p className="mt-5">Designed and built a custom career portal for <Link className="underline" href="https://younginnovations.com/">Young Innovations</Link>, a dental supply company with multiple subsidiary brands. Integrated directly with their existing Workday ATS via REST API to keep job listings in sync without manual overhead. Developed individual landing pages for each brand to create isolated recruiting funnels and improve organic search visibility across the portfolio. This project required careful coordination between their internal HR team, their ATS vendor, and my own development work.</p>
             <ul className="flex flex-wrap gap-1 mt-5">
@@ -78,26 +89,21 @@ export default function Home() {
               <li>Claude Code</li>
             </ul>
           </section>
-          <Link href="https://younginnovationscareers.com/">
-            <Image
-              className=""
-              src={Young}
-              sizes="40vw"
-            />
-          </Link>
         </li>
 
         <hr id="Break" className="border size-1/2 justify-self-center my-2"></hr>
 
-        <li className="flex items-center mt-5">
-          <Link href="https://onlycncjobs.com/">
+        <li className="flex flex-col md:flex-row items-center mt-5">
+          <Link className="sm:w-1/2 md:w-1/3 md:shrink-0" href="https://onlycncjobs.com/">
             <Image
               className=""
               src={OnlyCNCJobs}
-              sizes="40vw"
+              width="full"
+              height="auto"
+              alt="Only CNC Jobs Logo"
             />
           </Link>
-          <section className="p-5">
+          <section className="md:w-1/2 p-5">
             <h2 className="mt-5"><Link href="https://onlycncjobs.com/">OnlyCNCJobs</Link></h2>
             <p className="mt-5">Built and launched a niche job board targeting the CNC machining industry, serving as both the technical lead and Managing Director. Handled everything from site architecture and development to SEO strategy, content operations, and employer outreach. Integrated an AI-powered support chatbot to handle inbound inquiries and reduce operational load. Oversaw all growth and business development through year one.</p>
             <ul className="flex flex-wrap gap-1 mt-5">
@@ -129,8 +135,16 @@ export default function Home() {
 
         <hr id="Break" className="border size-1/2 justify-self-center my-5"></hr>
 
-        <li className="flex items-center mt-5">
-          <section className="p-5">
+        <li className="flex flex-col md:flex-row items-center mt-5">
+          <Image
+            className="w-1/3"
+            src={Logo}
+            width="full"
+            height="auto"
+            alt="Will Brent's Logo"
+          />
+        
+          <section className="p-5 md:w-1/2">
             <h2 className="mt-5"><Link href="https://willbrent.com/">Willbrent.com</Link></h2>
             <p className="mt-5">This site, built to let the work speak for itself. Intentionally minimal in design to keep the focus on content rather than visual decoration. Built entirely by hand with no AI code generation tools used at any point in development.</p>
             <ul className="flex flex-wrap gap-1 mt-5">
@@ -146,12 +160,8 @@ export default function Home() {
               <li>Github</li>
             </ul>
           </section>
-          <Image
-            className=""
-            src={Logo}
-            height={400}
-          />
-        </li>
+          </li>
+
       </ul>
 
       <section>
@@ -159,8 +169,8 @@ export default function Home() {
 
         <hr id="Break" className="border size-1/2 justify-self-center my-5"></hr>
 
-        <ul className="flex justify-self-center gap-5 p-5">
-          <li className="w-3/10">
+        <ul className="flex flex-col md:flex-row justify-self-center gap-5 p-5">
+          <li className="md:w-3/10">
             <Link href="https://samuraihuey.github.io/passwordGenerator/"><h3 className="underline justify-self-center">passwordGenerator</h3></Link>
             <p>A simple, but effective password generator, made using JavaScript. Prompts user using dialog box to ensure the password meets any needed character specifications.</p>
             <ul className="flex grid grid-cols-3 gap-x-5">
@@ -170,7 +180,7 @@ export default function Home() {
             </ul>
           </li>
           
-          <li className="w-3/10">
+          <li className="md:w-3/10">
             <Link href="https://samuraihuey.github.io/taskinator/"><h3 className="underline justify-self-center">Taskinator</h3></Link>
             <p>A Kanban board built using basic JavaScript, and utilizing Local Storage to keep persistant data after page refresh.</p>
             <ul className="flex grid grid-cols-3 gap-x-5">
@@ -180,7 +190,7 @@ export default function Home() {
             </ul>
           </li>
 
-          <li className="w-3/10">
+          <li className="md:w-3/10">
             <Link href="https://cshepscorp.github.io/lorem-sipsum/"><h3 className="underline justify-self-center">Lorem Sipsum</h3></Link>
             <p>Built as a collaborative project for a project in bootcamp. The assignment was to create a site from scratch using 2 new technologies not taught in class, with programmaticly rendered pages. For my group, we went above and beyond and implemented 4 technologies. Those are Materialize CSS and 3 third-party API's.</p>
             <ul className="flex grid grid-cols-3 gap-x-5">

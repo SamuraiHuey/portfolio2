@@ -10,27 +10,35 @@ export default function Home() {
       <h1 className="title">Experience</h1>
       <p className="p-5">My background is mostly full-stack web development, with a fair amount of digital strategy, marketing, and project management mixed in. I’ve built production websites from scratch, managed hosting infrastructure, handled third-party integrations, and run SEO programs. I’ve also had to manage stakeholders, write specs, and keep projects on track when requirements shifted. I work well in both directions — talking through technical decisions with other developers and explaining them clearly to people who aren’t.</p>
 
-      <section className="flex grid-cols-3 justify-center items-top">
-        <div className="p-5 w-33/100">
+      <section className="flex flex-col md:flex-row grid-cols-3 justify-center items-top">
+        <div className="p-5 md:w-33/100">
           <Image
             className=""
             src={Experience_1}
-          />
+            width="full"
+            height="auto"
+            alt="A scenic view of a dome with cherry blossoms in from of it"          />
           <h2 className="mt-5">Engineering</h2>
           <p>Most of my development work has been full-stack, and the stack has varied by project. On the CMS side I've worked heavily in WordPress and PHP, with some professional exposure to Drupal. On the front end, I've been working in Next.js, TailwindCSS, and JavaScript for about 5 years. I've also done a fair amount of REST API integration work across projects, connecting to ATS platforms, ad networks, and other third-party services. On the back end, I've worked with SQL and MongoDB in both professional and educational projects, and I've been putting time into Python outside of work. I'm comfortable with server configuration and hosting infrastructure — cPanel, WHM, Interworx, VPS — and I use Git consistently and deploy to production regularly. I've also spent a lot of time as the only technical person in the room, which means I've had to get good at gathering requirements, pushing back when something won't work, and delivering in a way that non-technical stakeholders can actually evaluate. </p>
         </div>
-        <div className="p-5 w-33/100">
+        <div className="p-5 md:w-33/100">
           <Image
             className=""
             src={Experience_2}
+            width="full"
+            height="auto"
+            alt="An artistically distorted photo of a group of people from above"  
           />
           <h2 className="mt-5">Marketing</h2>
           <p>A good chunk of my work has sat at the intersection of development and marketing. I’ve built SEO workflows, including AI-assisted content pipelines, that improved organic rankings for multiple sites. I’ve also set up and managed geofencing and geotargeting campaigns — handling the technical side of the integrations, configuring targeting, and tracking results through analytics. I’m not a marketer at heart, but I know enough to build the infrastructure for a marketing program and keep it running without needing a separate team to handle the technical pieces.</p>
         </div>
-        <div className="p-5 w-33/100">
+        <div className="p-5 md:w-33/100">
           <Image
             className=""
             src={Experience_3}
+            width="full"
+            height="auto"
+            alt="The Richmond, Virginia Skyline from across the James River"  
           />
           <h2 className="mt-5">Project Management</h2>
           <p>Several of the larger projects I’ve worked on required me to own more than just the development. The WorkRocket rebrand is a great example. I was coordinating across design, leadership, and multiple brands simultaneously, while also doing the actual build. Same with the PeopleSolutions overhaul, where I came in and rebuilt the company’s online presence from the ground up. In both cases I was scoping the work, managing the timeline, and the one accountable when something needed to ship. I’m used to that kind of ownership and I work better when I have it.</p>
@@ -40,7 +48,7 @@ export default function Home() {
 
       <h2 className="underline ml-5">Resume</h2>
 
-      <section className="mx-5 grid grid-cols-2 gap-10">
+      <section className="mx-5 md:grid grid-cols-2 gap-10">
 
 
         <div id="Employer" className="my-5">
@@ -55,7 +63,7 @@ export default function Home() {
           </ul>
           <section className="flex mt-5">
             <strong className="mr-2">Skills used:</strong>
-            <ul className="flex grid grid-cols-5 gap-3 italic">
+            <ul className="flex grid md:grid-cols-5 gap-3 italic">
               <li>HTML/CSS</li>
               <li>JavaScript</li>
               <li>PHP</li>
@@ -83,7 +91,7 @@ export default function Home() {
           </ul>
           <section className="flex mt-5">
             <strong className="mr-2">Skills used:</strong>
-            <ul className="flex grid grid-cols-5 gap-3 italic">
+            <ul className="flex grid md:grid-cols-5 gap-3 italic">
               <li>Agile Methodology</li>
               <li>Stakeholder Communication</li>
               <li>Leadership</li>
@@ -106,7 +114,7 @@ export default function Home() {
           </ul>
           <section className="flex  mt-5">
             <strong className="mr-2">Skills used:</strong>
-            <ul className="flex grid grid-cols-5 gap-3 italic">
+            <ul className="flex grid md:grid-cols-5 gap-3 italic">
               <li>HTML/CSS</li>
               <li>JavaScript</li>
               <li>React</li>
@@ -133,7 +141,7 @@ export default function Home() {
           </ul>
           <section className="flex mt-5">
             <strong className="mr-2">Skills used:</strong>
-            <ul className="flex grid grid-cols-5 gap-3 italic">
+            <ul className="flex grid md:grid-cols-5 gap-3 italic">
               <li>HTML/CSS</li>
               <li>JavaScript</li>
               <li>PHP</li>
@@ -149,13 +157,13 @@ export default function Home() {
 
       </section>
 
-      <section>
+      {/* <section>
         <div id="Skills" className="justify-items-center my-5">
           <h2>Skills Overview</h2>
           <div id="Break" className="border size-1/2 mt-2 mb-2"></div>
           <section className="flex my-3">
             <div className="mr-5"><strong>Language & Frameworks:</strong></div>
-            <ul className="flex gap-5">
+            <ul className="flex grid md:grid-cols-5 gap-5">
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>
@@ -173,7 +181,7 @@ export default function Home() {
 
           <section className="flex my-3">
             <div className="mr-5"><strong>Platforms & Tools:</strong></div>
-            <ul className="flex gap-5">
+            <ul className="flex grid md:grid-cols-5 gap-5">
               <li>WordPress</li>
               <li>Drupal</li>
               <li>WHM</li>
@@ -187,7 +195,7 @@ export default function Home() {
 
           <section className="flex my-3">
             <div className="mr-5"><strong>Professional:</strong></div>
-            <ul className="flex gap-5">
+            <ul className="flex grid md:grid-cols-5 gap-5">
               <li>Agile Methodology</li>
               <li>Client Communication</li>
               <li>Scrum</li>
@@ -201,7 +209,7 @@ export default function Home() {
 
           <section className="flex my-3">
             <div className="mr-5"><strong>AI Tools:</strong></div>
-            <ul className="flex gap-5">
+            <ul className="flex grid md:grid-cols-5 gap-5">
               <li>Claude</li>
               <li>ChatGPT</li>
               <li>Perplexity</li>
@@ -211,7 +219,7 @@ export default function Home() {
           </section>
 
         </div>
-      </section>
+      </section> */}
     </main>
 
   );

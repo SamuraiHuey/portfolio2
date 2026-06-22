@@ -19,6 +19,7 @@ export default function Header() {
                                 src={Logo}
                                 width={50}
                                 height={50}
+                                alt="Logo for Will Brent"
                             />
                         </Link>
                     </li>
