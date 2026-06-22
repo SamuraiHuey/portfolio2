@@ -12,7 +12,7 @@ export default function Header() {
                             Will Brent
                         </Link>
                     </li>
-                    <li class="">
+                    <li className="">
                         <Link href="/">
                             <Image
                                 className="self-center"

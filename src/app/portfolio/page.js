@@ -10,16 +10,18 @@ export default function Home() {
     <main>
       <h1 className="title ">Portfolio</h1>
       <p className="pl-4">From Full-Stack Development to SEO and Marketing.</p>
-      <div id="Break" className="border size-1/2 justify-self-center m-5"></div>
+
+      <hr id="Break" className="border size-1/2 justify-self-center m-5"></hr>
+
       <ul>
 
-        <li class="flex items-center mt-5">
+        <li className="flex items-center mt-5">
           <Link href="https://workrocket.com/">
-          <Image
-            className=""
-            src={WorkRocket}
-            sizes="40vw"
-          />
+            <Image
+              className=""
+              src={WorkRocket}
+              sizes="40vw"
+            />
           </Link>
           <section className="p-5">
             <h2 className=""><Link href="https://workrocket.com/">WorkRocket Homepage</Link></h2>
@@ -45,7 +47,7 @@ export default function Home() {
           </section>
         </li>
 
-        <div id="Break" className="border size-1/2 justify-self-center my-5"></div>
+        <hr id="Break" className="border size-1/2 justify-self-center my-5"></hr>
 
         <li className="flex items-center mt-5">
           <section className="p-5">
@@ -77,23 +79,23 @@ export default function Home() {
             </ul>
           </section>
           <Link href="https://younginnovationscareers.com/">
-          <Image
-            className=""
-            src={Young}
-            sizes="40vw"
-          />
+            <Image
+              className=""
+              src={Young}
+              sizes="40vw"
+            />
           </Link>
         </li>
 
-        <div id="Break" className="border size-1/2 justify-self-center my-2"></div>
+        <hr id="Break" className="border size-1/2 justify-self-center my-2"></hr>
 
-        <li class="flex items-center mt-5">
+        <li className="flex items-center mt-5">
           <Link href="https://onlycncjobs.com/">
-          <Image
-            className=""
-            src={OnlyCNCJobs}
-            sizes="40vw"
-          />
+            <Image
+              className=""
+              src={OnlyCNCJobs}
+              sizes="40vw"
+            />
           </Link>
           <section className="p-5">
             <h2 className="mt-5"><Link href="https://onlycncjobs.com/">OnlyCNCJobs</Link></h2>
@@ -125,9 +127,9 @@ export default function Home() {
           </section>
         </li>
 
-        <div id="Break" className="border size-1/2 justify-self-center my-5"></div>
+        <hr id="Break" className="border size-1/2 justify-self-center my-5"></hr>
 
-        <li class="flex items-center mt-5">
+        <li className="flex items-center mt-5">
           <section className="p-5">
             <h2 className="mt-5"><Link href="https://willbrent.com/">Willbrent.com</Link></h2>
             <p className="mt-5">This site, built to let the work speak for itself. Intentionally minimal in design to keep the focus on content rather than visual decoration. Built entirely by hand with no AI code generation tools used at any point in development.</p>
@@ -147,10 +149,52 @@ export default function Home() {
           <Image
             className=""
             src={Logo}
-            width={500}
+            height={400}
           />
         </li>
       </ul>
+
+      <section>
+        <h2 className="justify-self-center">Bootcamp Projects</h2>
+
+        <hr id="Break" className="border size-1/2 justify-self-center my-5"></hr>
+
+        <ul className="flex justify-self-center gap-5 p-5">
+          <li className="w-3/10">
+            <Link href="https://samuraihuey.github.io/passwordGenerator/"><h3 className="underline justify-self-center">passwordGenerator</h3></Link>
+            <p>A simple, but effective password generator, made using JavaScript. Prompts user using dialog box to ensure the password meets any needed character specifications.</p>
+            <ul className="flex grid grid-cols-3 gap-x-5">
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </li>
+          
+          <li className="w-3/10">
+            <Link href="https://samuraihuey.github.io/taskinator/"><h3 className="underline justify-self-center">Taskinator</h3></Link>
+            <p>A Kanban board built using basic JavaScript, and utilizing Local Storage to keep persistant data after page refresh.</p>
+            <ul className="flex grid grid-cols-3 gap-x-5">
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </li>
+
+          <li className="w-3/10">
+            <Link href="https://cshepscorp.github.io/lorem-sipsum/"><h3 className="underline justify-self-center">Lorem Sipsum</h3></Link>
+            <p>Built as a collaborative project for a project in bootcamp. The assignment was to create a site from scratch using 2 new technologies not taught in class, with programmaticly rendered pages. For my group, we went above and beyond and implemented 4 technologies. Those are Materialize CSS and 3 third-party API's.</p>
+            <ul className="flex grid grid-cols-3 gap-x-5">
+              <li>JavaScript</li>
+              <li>Materialize CSS</li>
+              <li>Ticketmaster API</li>
+              <li>Documenu API</li>
+              <li>OpenBreweriesDB API</li>
+            </ul>
+          </li>
+        </ul>
+
+      </section>
+
     </main>
 
   );
